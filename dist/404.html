@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Перенаправление ...</title>
+    <script>
+      const segment = 1; // Уровень вложенности репозитория
+      const repo = window.location.pathname.split('/')[segment] || 'card_product';
+      window.location.href = '/' + repo + '/index.html';
+    </script>
+  </head>
+  <body>
+    <h1>Перенаправление ...</h1>
+  </body>
+</html>
